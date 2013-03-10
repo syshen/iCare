@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80A4FC9516EAF56C0098CC4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A4FC9416EAF56C0098CC4F /* UIKit.framework */; };
+		80A4FC9716EAF56C0098CC4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A4FC9616EAF56C0098CC4F /* Foundation.framework */; };
+		80A4FC9916EAF56C0098CC4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A4FC9816EAF56C0098CC4F /* CoreGraphics.framework */; };
+		80A4FC9F16EAF56C0098CC4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FC9D16EAF56C0098CC4F /* InfoPlist.strings */; };
+		80A4FCA116EAF56C0098CC4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCA016EAF56C0098CC4F /* main.m */; };
+		80A4FCA516EAF56D0098CC4F /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCA416EAF56D0098CC4F /* SSAppDelegate.m */; };
+		80A4FCA716EAF56D0098CC4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCA616EAF56D0098CC4F /* Default.png */; };
+		80A4FCA916EAF56D0098CC4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCA816EAF56D0098CC4F /* Default@2x.png */; };
+		80A4FCAB16EAF56D0098CC4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCAA16EAF56D0098CC4F /* Default-568h@2x.png */; };
+		80A4FCAE16EAF56D0098CC4F /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCAD16EAF56D0098CC4F /* SSViewController.m */; };
+		80A4FCB116EAF56D0098CC4F /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCAF16EAF56D0098CC4F /* SSViewController.xib */; };
+		80A4FCBF16EAFB150098CC4F /* SSFeelingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCBE16EAFB150098CC4F /* SSFeelingViewController.m */; };
+		80A4FCC016EAFDDC0098CC4F /* IRPaginatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCBC16EAFAF90098CC4F /* IRPaginatedView.m */; };
+		80A4FCC516EB0E140098CC4F /* SSConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCC416EB0E130098CC4F /* SSConversationViewController.m */; };
+		80A4FCC716EB133D0098CC4F /* iCare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCC616EB133D0098CC4F /* iCare@2x.png */; };
+		80A4FCC916EB143B0098CC4F /* Dad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A4FCC816EB143B0098CC4F /* Dad@2x.png */; };
+		80A4FCCC16EB14A50098CC4F /* SSHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCCB16EB14A50098CC4F /* SSHeaderCell.m */; };
+		80A4FCCF16EB14B30098CC4F /* SSBodyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FCCE16EB14B30098CC4F /* SSBodyCell.m */; };
+		80E7496216EB18F1005320D8 /* iCareBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496016EB18F1005320D8 /* iCareBody@2x.png */; };
+		80E7496316EB18F1005320D8 /* iCareHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496116EB18F1005320D8 /* iCareHeader@2x.png */; };
+		80E7496616EB1B12005320D8 /* DadBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496416EB1B12005320D8 /* DadBody@2x.png */; };
+		80E7496716EB1B12005320D8 /* DadHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496516EB1B12005320D8 /* DadHeader@2x.png */; };
+		80E7496D16EB20AD005320D8 /* BluMom.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496B16EB20AD005320D8 /* BluMom.png */; };
+		80E7497016EB213A005320D8 /* BluMomBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496E16EB213A005320D8 /* BluMomBody@2x.png */; };
+		80E7497116EB213A005320D8 /* BluMomHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7496F16EB213A005320D8 /* BluMomHeader@2x.png */; };
+		80E7497316EB215B005320D8 /* MSG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E7497216EB215A005320D8 /* MSG@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80A4FC9116EAF56C0098CC4F /* iCare2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCare2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A4FC9416EAF56C0098CC4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80A4FC9616EAF56C0098CC4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80A4FC9816EAF56C0098CC4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80A4FC9C16EAF56C0098CC4F /* iCare2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCare2-Info.plist"; sourceTree = "<group>"; };
+		80A4FC9E16EAF56C0098CC4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80A4FCA016EAF56C0098CC4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80A4FCA216EAF56C0098CC4F /* iCare2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCare2-Prefix.pch"; sourceTree = "<group>"; };
+		80A4FCA316EAF56C0098CC4F /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		80A4FCA416EAF56D0098CC4F /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		80A4FCA616EAF56D0098CC4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80A4FCA816EAF56D0098CC4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80A4FCAA16EAF56D0098CC4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80A4FCAC16EAF56D0098CC4F /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		80A4FCAD16EAF56D0098CC4F /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		80A4FCB016EAF56D0098CC4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		80A4FCBB16EAFAF90098CC4F /* IRPaginatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRPaginatedView.h; sourceTree = "<group>"; };
+		80A4FCBC16EAFAF90098CC4F /* IRPaginatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRPaginatedView.m; sourceTree = "<group>"; };
+		80A4FCBD16EAFB150098CC4F /* SSFeelingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFeelingViewController.h; sourceTree = "<group>"; };
+		80A4FCBE16EAFB150098CC4F /* SSFeelingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFeelingViewController.m; sourceTree = "<group>"; };
+		80A4FCC316EB0E130098CC4F /* SSConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConversationViewController.h; sourceTree = "<group>"; };
+		80A4FCC416EB0E130098CC4F /* SSConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConversationViewController.m; sourceTree = "<group>"; };
+		80A4FCC616EB133D0098CC4F /* iCare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iCare@2x.png"; sourceTree = "<group>"; };
+		80A4FCC816EB143B0098CC4F /* Dad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dad@2x.png"; sourceTree = "<group>"; };
+		80A4FCCA16EB14A50098CC4F /* SSHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHeaderCell.h; sourceTree = "<group>"; };
+		80A4FCCB16EB14A50098CC4F /* SSHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHeaderCell.m; sourceTree = "<group>"; };
+		80A4FCCD16EB14B20098CC4F /* SSBodyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBodyCell.h; sourceTree = "<group>"; };
+		80A4FCCE16EB14B30098CC4F /* SSBodyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBodyCell.m; sourceTree = "<group>"; };
+		80E7496016EB18F1005320D8 /* iCareBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iCareBody@2x.png"; sourceTree = "<group>"; };
+		80E7496116EB18F1005320D8 /* iCareHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iCareHeader@2x.png"; sourceTree = "<group>"; };
+		80E7496416EB1B12005320D8 /* DadBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DadBody@2x.png"; sourceTree = "<group>"; };
+		80E7496516EB1B12005320D8 /* DadHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DadHeader@2x.png"; sourceTree = "<group>"; };
+		80E7496B16EB20AD005320D8 /* BluMom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluMom.png; sourceTree = "<group>"; };
+		80E7496E16EB213A005320D8 /* BluMomBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluMomBody@2x.png"; sourceTree = "<group>"; };
+		80E7496F16EB213A005320D8 /* BluMomHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluMomHeader@2x.png"; sourceTree = "<group>"; };
+		80E7497216EB215A005320D8 /* MSG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MSG@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80A4FC8E16EAF56C0098CC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A4FC9516EAF56C0098CC4F /* UIKit.framework in Frameworks */,
+				80A4FC9716EAF56C0098CC4F /* Foundation.framework in Frameworks */,
+				80A4FC9916EAF56C0098CC4F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A4FC8816EAF56C0098CC4F = {
+			isa = PBXGroup;
+			children = (
+				80A4FC9A16EAF56C0098CC4F /* iCare2 */,
+				80A4FC9316EAF56C0098CC4F /* Frameworks */,
+				80A4FC9216EAF56C0098CC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80A4FC9216EAF56C0098CC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FC9116EAF56C0098CC4F /* iCare2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80A4FC9316EAF56C0098CC4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FC9416EAF56C0098CC4F /* UIKit.framework */,
+				80A4FC9616EAF56C0098CC4F /* Foundation.framework */,
+				80A4FC9816EAF56C0098CC4F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A4FC9A16EAF56C0098CC4F /* iCare2 */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FCC616EB133D0098CC4F /* iCare@2x.png */,
+				80E7496E16EB213A005320D8 /* BluMomBody@2x.png */,
+				80E7496F16EB213A005320D8 /* BluMomHeader@2x.png */,
+				80E7497216EB215A005320D8 /* MSG@2x.png */,
+				80E7496B16EB20AD005320D8 /* BluMom.png */,
+				80A4FCC816EB143B0098CC4F /* Dad@2x.png */,
+				80E7496016EB18F1005320D8 /* iCareBody@2x.png */,
+				80E7496116EB18F1005320D8 /* iCareHeader@2x.png */,
+				80E7496416EB1B12005320D8 /* DadBody@2x.png */,
+				80E7496516EB1B12005320D8 /* DadHeader@2x.png */,
+				80A4FCBB16EAFAF90098CC4F /* IRPaginatedView.h */,
+				80A4FCBC16EAFAF90098CC4F /* IRPaginatedView.m */,
+				80A4FCA316EAF56C0098CC4F /* SSAppDelegate.h */,
+				80A4FCA416EAF56D0098CC4F /* SSAppDelegate.m */,
+				80A4FCC316EB0E130098CC4F /* SSConversationViewController.h */,
+				80A4FCC416EB0E130098CC4F /* SSConversationViewController.m */,
+				80A4FCCA16EB14A50098CC4F /* SSHeaderCell.h */,
+				80A4FCCB16EB14A50098CC4F /* SSHeaderCell.m */,
+				80A4FCCD16EB14B20098CC4F /* SSBodyCell.h */,
+				80A4FCCE16EB14B30098CC4F /* SSBodyCell.m */,
+				80A4FCBD16EAFB150098CC4F /* SSFeelingViewController.h */,
+				80A4FCBE16EAFB150098CC4F /* SSFeelingViewController.m */,
+				80A4FCAC16EAF56D0098CC4F /* SSViewController.h */,
+				80A4FCAD16EAF56D0098CC4F /* SSViewController.m */,
+				80A4FCAF16EAF56D0098CC4F /* SSViewController.xib */,
+				80A4FC9B16EAF56C0098CC4F /* Supporting Files */,
+			);
+			path = iCare2;
+			sourceTree = "<group>";
+		};
+		80A4FC9B16EAF56C0098CC4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FC9C16EAF56C0098CC4F /* iCare2-Info.plist */,
+				80A4FC9D16EAF56C0098CC4F /* InfoPlist.strings */,
+				80A4FCA016EAF56C0098CC4F /* main.m */,
+				80A4FCA216EAF56C0098CC4F /* iCare2-Prefix.pch */,
+				80A4FCA616EAF56D0098CC4F /* Default.png */,
+				80A4FCA816EAF56D0098CC4F /* Default@2x.png */,
+				80A4FCAA16EAF56D0098CC4F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80A4FC9016EAF56C0098CC4F /* iCare2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A4FCB416EAF56D0098CC4F /* Build configuration list for PBXNativeTarget "iCare2" */;
+			buildPhases = (
+				80A4FC8D16EAF56C0098CC4F /* Sources */,
+				80A4FC8E16EAF56C0098CC4F /* Frameworks */,
+				80A4FC8F16EAF56C0098CC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCare2;
+			productName = iCare2;
+			productReference = 80A4FC9116EAF56C0098CC4F /* iCare2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80A4FC8916EAF56C0098CC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = syshen;
+			};
+			buildConfigurationList = 80A4FC8C16EAF56C0098CC4F /* Build configuration list for PBXProject "iCare2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80A4FC8816EAF56C0098CC4F;
+			productRefGroup = 80A4FC9216EAF56C0098CC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80A4FC9016EAF56C0098CC4F /* iCare2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80A4FC8F16EAF56C0098CC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A4FC9F16EAF56C0098CC4F /* InfoPlist.strings in Resources */,
+				80A4FCA716EAF56D0098CC4F /* Default.png in Resources */,
+				80A4FCA916EAF56D0098CC4F /* Default@2x.png in Resources */,
+				80A4FCAB16EAF56D0098CC4F /* Default-568h@2x.png in Resources */,
+				80A4FCB116EAF56D0098CC4F /* SSViewController.xib in Resources */,
+				80A4FCC716EB133D0098CC4F /* iCare@2x.png in Resources */,
+				80A4FCC916EB143B0098CC4F /* Dad@2x.png in Resources */,
+				80E7496216EB18F1005320D8 /* iCareBody@2x.png in Resources */,
+				80E7496316EB18F1005320D8 /* iCareHeader@2x.png in Resources */,
+				80E7496616EB1B12005320D8 /* DadBody@2x.png in Resources */,
+				80E7496716EB1B12005320D8 /* DadHeader@2x.png in Resources */,
+				80E7496D16EB20AD005320D8 /* BluMom.png in Resources */,
+				80E7497016EB213A005320D8 /* BluMomBody@2x.png in Resources */,
+				80E7497116EB213A005320D8 /* BluMomHeader@2x.png in Resources */,
+				80E7497316EB215B005320D8 /* MSG@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80A4FC8D16EAF56C0098CC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A4FCC016EAFDDC0098CC4F /* IRPaginatedView.m in Sources */,
+				80A4FCA116EAF56C0098CC4F /* main.m in Sources */,
+				80A4FCA516EAF56D0098CC4F /* SSAppDelegate.m in Sources */,
+				80A4FCAE16EAF56D0098CC4F /* SSViewController.m in Sources */,
+				80A4FCBF16EAFB150098CC4F /* SSFeelingViewController.m in Sources */,
+				80A4FCC516EB0E140098CC4F /* SSConversationViewController.m in Sources */,
+				80A4FCCC16EB14A50098CC4F /* SSHeaderCell.m in Sources */,
+				80A4FCCF16EB14B30098CC4F /* SSBodyCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80A4FC9D16EAF56C0098CC4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80A4FC9E16EAF56C0098CC4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80A4FCAF16EAF56D0098CC4F /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80A4FCB016EAF56D0098CC4F /* en */,
+			);
+			name = SSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80A4FCB216EAF56D0098CC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80A4FCB316EAF56D0098CC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80A4FCB516EAF56D0098CC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCare2/iCare2-Prefix.pch";
+				INFOPLIST_FILE = "iCare2/iCare2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80A4FCB616EAF56D0098CC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCare2/iCare2-Prefix.pch";
+				INFOPLIST_FILE = "iCare2/iCare2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80A4FC8C16EAF56C0098CC4F /* Build configuration list for PBXProject "iCare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A4FCB216EAF56D0098CC4F /* Debug */,
+				80A4FCB316EAF56D0098CC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A4FCB416EAF56D0098CC4F /* Build configuration list for PBXNativeTarget "iCare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A4FCB516EAF56D0098CC4F /* Debug */,
+				80A4FCB616EAF56D0098CC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80A4FC8916EAF56C0098CC4F /* Project object */;
+}
